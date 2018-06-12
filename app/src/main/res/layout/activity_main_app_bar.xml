@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/color_primary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/ActionBar.TitleText"/>
+
+        <LinearLayout
+            android:id="@+id/account_balance_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <!--<TextView
+                style="@style/TextLarge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="คงเหลือ"
+                android:textColor="@android:color/white"/>-->
+
+            <TextView
+                android:id="@+id/account_balance_text_view"
+                style="@style/TextLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                tools:text="฿1,500"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            app:tabMode="fixed"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_main_content"/>
+
+    <View
+        android:id="@+id/mask_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a0000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/income_fab"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_menu_margin"
+        android:visibility="gone"
+        app:backgroundTint="@color/income"
+        app:srcCompat="@drawable/ic_income"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/expense_fab"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_menu_margin"
+        android:visibility="gone"
+        app:backgroundTint="@color/expense"
+        app:srcCompat="@drawable/ic_expense"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/investment_fab"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_menu_margin"
+        android:visibility="gone"
+        app:backgroundTint="@color/investment"
+        app:srcCompat="@drawable/ic_investment"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_add"/>
+
+    <!--
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_add_2"
+            app:fab_colorNormal="@color/color_accent"
+            app:fab_colorPressed="@color/color_accent_light"
+            app:fab_shadowRadius="2dp"/>
+    -->
+
+</android.support.design.widget.CoordinatorLayout>

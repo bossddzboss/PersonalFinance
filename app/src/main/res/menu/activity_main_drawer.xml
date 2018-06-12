@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:ignore="HardcodedText"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="หน้าแรก"/>
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/ic_summary"
+            android:title="สรุป"/>
+        <item
+            android:id="@+id/nav_investment"
+            android:icon="@drawable/ic_investment"
+            android:title="ลงทุน"/>
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="แจ้งเตือน"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_clear_data"
+                android:icon="@drawable/ic_delete"
+                android:title="ลบข้อมูลทั้งหมด"/>
+        </menu>
+    </item>
+
+</menu>
