@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#4f8aff</color>
+    <color name="color_primary_dark">#0055ff</color>
+    <color name="color_accent">#ff8d0b</color>
+    <color name="color_accent_light">#ffb055</color>
+
+    <color name="grey">#808080</color>
+    <color name="light_grey">#efefef</color>
+
+    <color name="income">#14a71a</color>
+    <color name="expense">#ff4f4f</color>
+    <color name="investment">#ae4fff</color>
+</resources>

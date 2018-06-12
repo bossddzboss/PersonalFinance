@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "984273052524",
+    "firebase_url": "https://personalfinance-a5546.firebaseio.com",
+    "project_id": "personalfinance-a5546",
+    "storage_bucket": "personalfinance-a5546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984273052524:android:872cc87008a8ad9a",
+        "android_client_info": {
+          "package_name": "com.example.personalfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984273052524-qlkv9u64lgbcd3mg5v2cn9rmj9737i58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.personalfinance",
+            "certificate_hash": "e2c017bcbf788fdb8d806a93131a4b11dfaf6425"
+          }
+        },
+        {
+          "client_id": "984273052524-a7s6tgd90nn5lh2dfpcl9uo25ka7e3iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5cez5r76NY6AbitBotVBHJD6zA2ilYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984273052524-a7s6tgd90nn5lh2dfpcl9uo25ka7e3iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

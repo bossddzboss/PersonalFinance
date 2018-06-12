@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="หน้าแรก"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_summary"
+        android:enabled="true"
+        android:icon="@drawable/ic_summary"
+        android:title="สรุป"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/empty"
+        android:title=""/>
+    <item
+        android:id="@+id/action_investment"
+        android:enabled="true"
+        android:icon="@drawable/ic_investment"
+        android:title="ลงทุน"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_alarm"
+        android:enabled="true"
+        android:icon="@drawable/ic_alarm"
+        android:title="แจ้งเตือน"
+        app:showAsAction="ifRoom"/>
+</menu>
